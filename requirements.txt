@@ -1,0 +1,10 @@
+# Pinned to match the environment that trained and pickled best_model_pipeline.pkl
+# (confirmed via `pip freeze`), so Streamlit Cloud unpickles it with the same
+# library versions as opposed to  guessing at compatibility.
+
+streamlit==1.60.0
+scikit-learn==1.8.0
+pandas==3.0.3
+numpy==2.4.6
+scipy==1.17.1
+joblib==1.5.3
